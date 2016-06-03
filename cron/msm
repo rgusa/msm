@@ -20,3 +20,6 @@
 
 # Start any crashed servers again each hour
 @hourly               minecraft   /etc/init.d/msm start
+
+# Start server once linux boots
+@reboot               minecraft   /etc/init.d/msm start
